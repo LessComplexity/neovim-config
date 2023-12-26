@@ -98,3 +98,7 @@ require "sapir.lsp"
 require "sapir.lualine"
 require "sapir.bufferline"
 require "sapir.autopairs"
+require("copilot").setup();
+
+-- Set mouse as a
+vim.o.mouse = "a"
